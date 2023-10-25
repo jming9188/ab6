@@ -29,6 +29,15 @@ def encode(password):
         u = str(t)
         finalpassword += u
     return finalpassword
+def decode(password):
+    decode_pass = ""
+    for i in password:
+        i = int (i)
+        p = i -3
+        o = str(p)
+        decode_pass += o
+
+    return decode_pass
 
 
 # Press the green button in the gutter to run the script.
